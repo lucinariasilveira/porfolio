@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#vavegacao{
+    width:100%;
+    background-color: blueviolet;
+    display:grid;
+}
+.menu{
+    background-color: rgb(113, 88, 241);
+    padding: 15px;
+    margin: 1px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.menu:hover{
+    background-color: rgb(154, 68, 143);
+    color: rgb(6, 6, 0);
+    transition: 1s;
+    border-radius: 5pt;
+}
